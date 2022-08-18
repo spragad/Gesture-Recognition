@@ -24,7 +24,8 @@ Each row of the CSV file represents one video and contains three main pieces of 
 Dataset : https://drive.google.com/uc?id=1ehyrYBQ5rbQQe6yL4XbLWe3FMvuVUGiL
 
 Sample: A person sliding his hand from right to left
-![Sample]()
+
+![Sample](https://github.com/spragad/Gesture-Recognition/blob/main/Readme_imgs/sample.png)
 
 ### Architecture
 
@@ -55,7 +56,7 @@ Validation Accuracy: 0.88
 
 Since training accuracy and validation accuracy are not too far, this model is not overfitting. The validation accuracy is better and the numbers of trainable params are very less when compared to all other models, which is 13,589. The model size is also small with a size of 254KB. The Loss tends to 0 and accuracy tends to 1 as shown below. 
 
-![Accuracy]()
+![Accuracy](https://github.com/spragad/Gesture-Recognition/blob/main/Readme_imgs/out.png)
 
 With the increase in batch size / epochs, model can train and achieve a better accuracy. The gap between training and validation accuracy is not too far, tweaking the Hyper-parameters will end up in a better model. Hence, we are choosing ConvoLSTM2D to be the final model.
 
