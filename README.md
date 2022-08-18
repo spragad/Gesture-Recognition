@@ -50,9 +50,9 @@ We will be using Keras API with TensorFlow backend.
 
 ### Conclusion
 
-Model Build: ConvoLSTM2D
-Train Accuracy: 0.96
-Validation Accuracy: 0.88
+- Model Build: ConvoLSTM2D
+- Train Accuracy: 0.96
+- Validation Accuracy: 0.88
 
 Since training accuracy and validation accuracy are not too far, this model is not overfitting. The validation accuracy is better and the numbers of trainable params are very less when compared to all other models, which is 13,589. The model size is also small with a size of 254KB. The Loss tends to 0 and accuracy tends to 1 as shown below. 
 
